@@ -1,0 +1,38 @@
+Apple Scab: Regularly prune infected branches and spray fungicide containing captan or mancozeb.
+Apple Black Rot: Remove infected fruit and branches; apply fungicides like captan during the growing season.
+Apple Cedar Rust: Remove nearby juniper trees and use fungicides like myclobutanil.
+Apple Healthy: No action needed, the plant is healthy.
+Blueberry Healthy: No action needed, the plant is healthy.
+Cherry Powdery Mildew: Apply sulfur-based fungicides and avoid overhead watering.
+Cherry Healthy: No action needed, the plant is healthy.
+Corn Cercospora Leaf Spot: Rotate crops and use fungicides like azoxystrobin.
+Corn Common Rust: Plant resistant varieties and apply fungicides like propiconazole.
+Corn Northern Leaf Blight: Use resistant hybrids and rotate crops.
+Corn Healthy: No action needed, the plant is healthy.
+Grape Black Rot: Remove infected leaves and spray fungicides like myclobutanil.
+Grape Esca (Black Measles): Avoid wounding vines and apply fungicides.
+Grape Leaf Blight (Isariopsis Leaf Spot): Use fungicides like copper oxychloride.
+Grape Healthy: No action needed, the plant is healthy.
+Orange Huanglongbing (Citrus Greening): Remove infected trees and control the psyllid vector.
+Peach Bacterial Spot: Apply copper-based bactericides and avoid overhead irrigation.
+Peach Healthy: No action needed, the plant is healthy.
+Pepper Bell Bacterial Spot: Use resistant varieties and copper-based fungicides.
+Pepper Bell Healthy: No action needed, the plant is healthy.
+Potato Early Blight: Use fungicides like chlorothalonil and avoid wet foliage.
+Potato Late Blight: Apply fungicides like mancozeb and ensure good air circulation.
+Potato Healthy: No action needed, the plant is healthy.
+Raspberry Healthy: No action needed, the plant is healthy.
+Soybean Healthy: No action needed, the plant is healthy.
+Squash Powdery Mildew: Use sulfur-based fungicides and improve air circulation.
+Strawberry Leaf Scorch: Remove infected leaves and apply fungicides.
+Strawberry Healthy: No action needed, the plant is healthy.
+Tomato Bacterial Spot: Use resistant varieties and copper-based bactericides.
+Tomato Early Blight: Apply fungicides like chlorothalonil and remove infected leaves.
+Tomato Late Blight: Use fungicides like mancozeb and ensure proper spacing.
+Tomato Leaf Mold: Remove affected leaves and use fungicides like chlorothalonil.
+Tomato Septoria Leaf Spot: Use fungicides like chlorothalonil and avoid wetting leaves.
+Tomato Spider Mites (Two-Spotted Spider Mite): Apply insecticidal soap or neem oil.
+Tomato Target Spot: Remove infected leaves and use fungicides.
+Tomato Mosaic Virus: Remove infected plants and disinfect tools.
+Tomato Yellow Leaf Curl Virus: Use resistant varieties and control whiteflies.
+Tomato Healthy: No action needed, the plant is healthy.
