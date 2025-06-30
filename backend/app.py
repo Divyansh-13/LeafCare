@@ -1,43 +1,16 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import os
-
-# Handle TensorFlow import for different environments
-try:
-    import tensorflow as tf
-    from tensorflow.keras.models import load_model
-except ImportError:
-    print("TensorFlow not available, using alternative imports")
-    import tensorflow as tf
-    from tensorflow.keras.models import load_model
-
+import tensorflow as tf
+from tensorflow.keras.models import load_model
 from PIL import Image
 import numpy as np
 
 app = Flask(__name__)
 CORS(app)
 
-# Initialize model as None
-model = None
-
-def load_ml_model():
-    global model
-    try:
-        # Try to load the model file that exists
-        if os.path.exists("vgg16_model.keras"):
-            model = load_model("vgg16_model.keras")
-        elif os.path.exists("CNN_model.keras"):
-            model = load_model("CNN_model.keras")
-        else:
-            print("No model file found")
-            return False
-        return True
-    except Exception as e:
-        print(f"Error loading model: {e}")
-        return False
-
-# Load model on startup
-model_loaded = load_ml_model()
+# trained model
+#model = load_model("CNN_model.keras")
+model = load_model("vgg16_model.keras")
 
 # List of all 38 plant disease classes
 classes = [
@@ -79,9 +52,6 @@ def preprocess_image(image, target_size=(128, 128)):
 
 @app.route('/result', methods=['POST'])
 def predict():
-    if not model_loaded or model is None:
-        return jsonify({"error": "Model not available"}), 503
-        
     if 'file' not in request.files:
         return jsonify({"error": "No file uploaded"}), 400
     
@@ -111,13 +81,5 @@ def predict():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route('/health', methods=['GET'])
-def health_check():
-    return jsonify({
-        "status": "healthy",
-        "model_loaded": model_loaded
-    })
-
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port, debug=False)
+    app.run(debug=True)
