@@ -82,10 +82,4 @@ LeafCare/
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-[MIT](LICENSE)
-
----
-
 > **Divyansh-13/LeafCare** – A website for detecting leaf diseases using machine learning.
