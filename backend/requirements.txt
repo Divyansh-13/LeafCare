@@ -1,14 +1,6 @@
-flask
-flask-cors
-Pillow
-numpy
-# If you use OpenCV for image preprocessing:
-opencv-python
-# For handling Keras models and prediction:
-tensorflow==2.12.0
-# If you use scikit-learn for any post-processing:
-scikit-learn
-# (Optional) For progress bar or utilities:
-tqdm
-# (Optional) If you use gunicorn for running Flask in production:
-gunicorn
+Flask==2.3.3
+Flask-Cors==4.0.0
+tensorflow-cpu>=2.12.0,<2.14.0
+Pillow==10.0.1
+numpy>=1.21.0,<1.25.0
+gunicorn==21.2.0
